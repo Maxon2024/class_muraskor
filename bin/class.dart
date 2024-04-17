@@ -1,12 +1,20 @@
 void main(List<String> arguments) {
-  Adyl adyl = Adyl(aty: 'Adyl', jashy: 17, boiu: 180, salmagy: 65);
+  // Adyl adyl = Adyl(aty: 'Adyl', jashy: 17, boiu: 180, salmagy: 65);
 
-  print(adyl.aty);
-  print(adyl.jashy);
-  print(adyl.boiu);
-  print(adyl.salmagy);
+  // print(adyl.aty);
+  // print(adyl.jashy);
+  // print(adyl.boiu);
+  // print(adyl.salmagy);
 
-  adyl.mashygat();
+  // adyl.mashygat();
+
+  Country ahgvbsdfla = Country('auhdf', 12321);
+
+  print(ahgvbsdfla.name);
+  ahgvbsdfla.fffff();
+
+  // print(Country('asfdas', 0).name);
+  // print(Country('asfdas', 0).aiant);
 }
 
 class Adyl {
@@ -25,6 +33,20 @@ class Adyl {
     print('kunugo 2 saat mashigat');
   }
 }
+
+class Country {
+  Country(this.name, this.aiant);
+
+  String name;
+  num aiant;
+
+  fffff() {
+    print('ouagofbuafa........');
+  }
+}
+
+
+
 //   Mashina mashina = Mashina(2000, 'Mersedes', 'kara', 3000000);
 // //   print(mashina.jyly);
 //   print(mashina.aty);
